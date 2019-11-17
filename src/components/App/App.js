@@ -15,9 +15,9 @@ class App extends React.Component {
       const {lists, title, subtitle} = this.props;
     return (
       <main className={styles.component}>
+        <Search />
         <h1 className={styles.title}>{title}</h1>
         <h2 className={styles.subtitle}>{subtitle}</h2>
-        <Search />
         {/* <List {...listData} /> */}
         {lists.map(listData => (
             <List key={listData.id} {...listData} />
