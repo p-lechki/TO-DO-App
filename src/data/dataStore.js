@@ -12,7 +12,21 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  logo: 'dog',
 };
+
+export const select = {
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  infoSubpage: {
+    title: 'info',
+    content: 'Bacon ipsum dolor amet flank capicola bresaola drumstick short loin frankfurter andouille shankle tri-tip pig cow landjaeger pork. Andouille ham bresaola strip steak pork tri-tip chuck jerky, picanha chislic boudin cupim cow ground round short loin. Tongue prosciutto beef, ground round cupim frankfurter t-bone. Chicken rump ham hock landjaeger turducken. Buffalo bresaola turkey meatloaf tenderloin. Sirloin picanha short ribs, boudin doner corned beef bresaola pork belly tenderloin shoulder pig turkey. Drumstick spare ribs burgdoggen, ground round ribeye brisket bacon shankle ball tip buffalo rump short loin swine.',
+  },
+  faqSubpage: {
+    title: 'faq',
+    content: 'Bacon flank tenderloin short ribs short loin kielbasa jowl pancetta corned beef drumstick chicken tail pig shank. Short ribs tri-tip jowl turkey shankle. Leberkas sirloin tail, meatball picanha pork loin prosciutto turkey sausage andouille kevin fatback. Tenderloin tongue biltong, pancetta beef ribs strip steak shoulder brisket buffalo hamburger pig pork belly. Swine capicola chislic, pork loin corned beef picanha doner beef. Boudin frankfurter salami sirloin. Shank meatball pork belly, picanha bresaola drumstick chislic pig venison pancetta prosciutto cow strip steak. Shankle pork bresaola cupim doner ham ground round prosciutto jerky spare ribs filet mignon pastrami porchetta swine ball tip. Frankfurter shank jerky doner bacon spare ribs. Ball tip hamburger shankle chuck cupim brisket sirloin flank doner meatball frankfurter landjaeger shank shoulder. Pig tri-tip sirloin shankle salami ham meatloaf bacon picanha kevin shank kielbasa boudin cow doner. Pig capicola flank, salami pancetta swine kielbasa sirloin chislic drumstick.'
+  }
+}
+
 
 export const pageContents = {
   title: 'My first React app',
