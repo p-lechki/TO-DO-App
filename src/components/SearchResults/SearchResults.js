@@ -9,14 +9,15 @@ class SearchResults extends React.Component {
         cards: PropTypes.array,
     }
     render() {
+        const {cards} = this.props;
         return (
             <Container>
                 <section className={styles.component}>
-                    <div className={styles.card}>
-                        {cards.map(cardData => (
-                            <Card kay={cardData.id}{...cardData} />
-                        ))}
-                    </div>
+                <div>
+                    {cards.map(cardData => (
+                        <div key={cardData.id}>{cardData.title}</div>
+                    ))}
+                </div>
                 </section>
             </Container>
         );
